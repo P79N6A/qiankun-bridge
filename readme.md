@@ -1,4 +1,4 @@
-# @byted-cg/qiankun-bridge
+# qiankun-bridge
 ## Introduction
 Provides an easy way to communicate between 'Master' and 'Slave' applications in Micro Frontends scene
 
@@ -8,17 +8,17 @@ Provides an easy way to communicate between 'Master' and 'Slave' applications in
 ### Install
 npm
 ```
-npm install @byted-cg/qiankun-bridge -S
+npm install qiankun-bridge -S
 ```
 
 yarn
 ```
-yarn add @byted-cg/qiankun-bridge
+yarn add qiankun-bridge
 ```
 
 ### Usage
 ```
-import { qiankunBridge } from '@byted-cg/qiankun-bridge'
+import { qiankunBridge } from 'qiankun-bridge'
 
 // register handler
 qiankunBridge.registerHandlers({
