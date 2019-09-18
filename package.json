@@ -1,0 +1,29 @@
+{
+  "name": "@byted-cg/qiankun-bridge",
+  "version": "0.0.1-alpha.5",
+  "author": "howel52",
+  "main": "dist/index.js",
+  "types": "dist/src/index.d.ts",
+  "dependencies": {
+    "wolfy87-eventemitter": "^5.2.6"
+  },
+  "devDependencies": {
+    "father": "^2.15.1",
+    "typescript": "^3.5.3"
+  },
+  "scripts": {
+    "build": "father build",
+    "lint": "eslint --ext .js src",
+    "lint:fix": "eslint --fix --ext .js src",
+    "test": "father test",
+    "test:coverage": "father test --coverage"
+  },
+  "license": "ISC",
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@code.byted.org:cgfe/qiankun-bridge.git"
+  }
+}

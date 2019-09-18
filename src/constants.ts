@@ -1,0 +1,1 @@
+export const INSTANCE_MOUNT_WINDOW_KEY = '$qiankunBridge'
